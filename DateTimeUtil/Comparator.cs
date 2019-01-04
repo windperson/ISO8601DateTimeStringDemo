@@ -86,6 +86,7 @@ namespace DateTimeUtil
         }
     }
 
+    // see: https://stackoverflow.com/q/1393696
     public static class DateExtension
     {
         public static DateTime Round(this DateTime date, TimeSpan span)
